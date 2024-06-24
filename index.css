@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  .header {
+    width: 100%;
+    height: 100px;
+    background-color: #eeebec;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .navLinks {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 40%;
+  }
+  
+  .navLinks ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+  }
+  
+  .navLinks ul li {
+      font-size: 18px;
+      cursor: pointer;
+  }
+  
+  .navLinks ul :nth-child(1) {
+      color: red;
+  }
+
+  .main {
+    width: 100%;
+    position: relative;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+}
+
+.background img {
+    width: 100%;
+    height: 100%;
+}
+
+.delight {
+    width: 15%;
+    height: 25%;
+    position: absolute;
+    top: 70%;
+    right: 23%;
+}
+
+.delight img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.delight span {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-size: 34px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.productMain {
+    background-color: #eae7e8;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .productMain .detail {
+    /* background-color: blue; */
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    word-wrap: break-word;
+  }
+  
+  .detail > span {
+      margin: 20px 0px;
+  }
+  
+  .productSpn1 {
+      font-size: 20px;
+      font-weight: bold;
+  }
+  
+  .productSpn2 {
+      font-size: 28px;
+      color: #E32A62;
+  }
+  
+  .productMain .background {
+    /* background-color: blueviolet; */
+    width: 30%;
+    height: 100%;
+  }
+
+  .footerMain {
+    background-color: #c8c10d;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footerMain div {
+    /* background-color: blueviolet; */
+    width: 220px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+    margin: 10px;
+    padding: 10px 0px;
+}
+
+.footerMain div span {
+    margin: 10px 0px;
+    color: #ffffff;
+}
